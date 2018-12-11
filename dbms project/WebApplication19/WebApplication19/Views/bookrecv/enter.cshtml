@@ -1,0 +1,92 @@
+﻿@{
+    ViewBag.Title = "enter";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+@using WebApplication19.Models;
+<div id="page-wrapper">
+    <div id="page-inner">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="page-header">
+BOOK RECEIVE
+                                </h1>
+            </div>
+        </div>
+        <!-- /. ROW  -->
+        <div class="row">
+
+
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Book Receive  Form
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <form role="form" action="/bookrecv/enter" method="post">
+                                    <div class="form-group">
+
+                                        @*<label>Mid</label>
+                                            <input class="form-control" name="Userid">*@
+                                        <div class="form-group">
+                                            <label>Book Issue Number</label>
+                                            <select class="form-control" name="bookisno">
+
+                                                @for (int i = 0; i < bookrecvmodel.fk().Rows.Count; i++)
+                                                {
+                                                    <option>@bookrecvmodel.fk().Rows[i][0].ToString()</option>
+                                                }
+                                                @*<option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>*@
+                                            </select>
+                                        </div>
+                                        @*@Html.DropDownList("mid")*@
+
+                                        <label>Book Copy Number</label>
+                                        <input class="form-control" name="bcno">
+                                        <label>Book Receive Date</label>
+                                        <input class="form-control" name="brd">
+                                         <label>Fine Charges</label>
+                                        <input class="form-control" name="fine">
+
+
+                                    </div>
+
+
+
+
+
+
+
+                                    <button type="submit" class="btn btn-default">Submit Button</button>
+
+                                    <button type="reset" class="btn btn-default">Reset Button</button>
+
+                                </form>
+                            </div>
+                            <!-- /.col-lg-6 (nested) -->
+                            <!-- 
+                                     </div>
+                                 </form>
+                             </div>
+                             <!-- /.col-lg-6 (nested) -->
+                            -->
+                        </div>
+                        <!-- /.row (nested) -->
+                    </div>
+                    <!-- /.panel-body -->
+                </div>
+                <!-- /.panel -->
+            </div>
+
+            <!-- /.col-lg-12 -->
+        </div>
+        @*<footer><p>All right reserved. Template by: <a href="http://webthemez.com">WebThemez</a></p></footer>*@
+    </div>
+    <!-- /. PAGE INNER  -->
+</div>
+<!-- /. PAGE WRAPPER  -->

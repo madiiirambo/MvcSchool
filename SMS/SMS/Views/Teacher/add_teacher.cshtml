@@ -1,0 +1,76 @@
+﻿@model SMS.Models.Teacher
+
+@{
+    ViewBag.Title = "add_teacher";
+    Layout = "~/Views/Shared/_Layout_logout.cshtml";
+}
+
+<h2>add_teacher</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Teacher</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.t_name, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.t_name)
+                @Html.ValidationMessageFor(model => model.t_name)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.t_pass, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.t_pass)
+                @Html.ValidationMessageFor(model => model.t_pass)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.t_contact, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.t_contact)
+                @Html.ValidationMessageFor(model => model.t_contact)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.t_address, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.t_address)
+                @Html.ValidationMessageFor(model => model.t_address)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.t_email, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.t_email)
+                @Html.ValidationMessageFor(model => model.t_email)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

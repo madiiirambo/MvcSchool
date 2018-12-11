@@ -1,0 +1,54 @@
+﻿@model SMS.Models.Fix_Year
+
+@{
+    ViewBag.Title = "fix_year";
+    Layout = "~/Views/Shared/_Layout_logout.cshtml";
+}
+
+<h2>fix_year</h2>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Fix_Year</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.s_date, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.s_date)
+                @Html.ValidationMessageFor(model => model.s_date)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.e_date, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.e_date)
+                @Html.ValidationMessageFor(model => model.e_date)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+

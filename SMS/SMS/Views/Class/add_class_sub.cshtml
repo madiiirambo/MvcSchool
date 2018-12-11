@@ -1,0 +1,58 @@
+﻿@model SMS.Models.Class
+
+@{
+    ViewBag.Title = "add_class_sub";
+    Layout = "~/Views/Shared/_Layout_logout.cshtml";
+}
+
+<h2>add_class_sub</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Class</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.class_id, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.class_id, (SelectList)ViewBag.adil1, "Select", new { @class = "form-control input-sm" })
+                @Html.ValidationMessageFor(model => model.class_id, "", new { @class = "text-danger" })
+            </div>
+        </div><div class="form-group">
+            @Html.LabelFor(model => model.sub_id, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.sub_id, (SelectList)ViewBag.adil3, "Select", new { @class = "form-control input-sm" })
+                @Html.ValidationMessageFor(model => model.sub_id, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.t_id, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.t_id, (SelectList)ViewBag.adil4, "Select", new { @class = "form-control input-sm" })
+                @Html.ValidationMessageFor(model => model.t_id, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

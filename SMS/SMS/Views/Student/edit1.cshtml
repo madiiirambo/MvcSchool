@@ -1,0 +1,94 @@
+﻿@model SMS.Models.StudentModel
+
+@{
+    ViewBag.Title = "edit1";
+    Layout = "~/Views/Shared/_Layout_logout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Student Data</legend>
+
+        @Html.HiddenFor(model => model.std_id)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.std_name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.std_name)
+            @Html.ValidationMessageFor(model => model.std_name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.std_pass)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.std_pass)
+            @Html.ValidationMessageFor(model => model.std_pass)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.std_f_name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.std_f_name)
+            @Html.ValidationMessageFor(model => model.std_f_name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.std_gender)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.std_gender)
+            @Html.ValidationMessageFor(model => model.std_gender)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.std_age)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.std_age)
+            @Html.ValidationMessageFor(model => model.std_age)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.std_Dob)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.std_Dob)
+            @Html.ValidationMessageFor(model => model.std_Dob)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.std_contact)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.std_contact)
+            @Html.ValidationMessageFor(model => model.std_contact)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.std_f_contact)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.std_f_contact)
+            @Html.ValidationMessageFor(model => model.std_f_contact)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.std_address)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.std_address)
+            @Html.ValidationMessageFor(model => model.std_address)
+        </div>
+
+        <p>
+            <input type="submit" value="Delete" />
+        </p>
+    </fieldset>
+}
+
+

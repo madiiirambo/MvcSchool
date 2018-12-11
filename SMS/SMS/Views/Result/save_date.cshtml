@@ -1,0 +1,78 @@
+﻿@model IEnumerable<SMS.Models.AddResult>
+
+@{
+    ViewBag.Title = "save_date";
+    Layout = "~/Views/Shared/_Layout_logout.cshtml";
+}
+
+<h2>save_date</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+
+        <th>
+            @Html.DisplayNameFor(model => model.std_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.std_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.class_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sub_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.exam_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.marks_obt)
+        </th>
+
+        <th></th>
+    </tr>
+    @using (Html.BeginForm("save_date", "Result", FormMethod.Post))
+            {
+
+                int i = 0;
+                foreach (var item in Model)
+                {
+        <tr>
+
+            <td>
+                <input type="number" name="item[@i].std_id" value="@item.std_id" />
+            
+            </td>
+            <td>
+                <input type="text" name="item[@i].std_name" value="@item.std_name" />
+      </td>
+            <td>
+                <input type="number" name="item[@i].class_id" value="@item.class_id" />
+       </td>
+            <td>
+                <input type="number" name="item[@i].sub_id" value="@item.sub_id" />
+ </td>
+            <td>
+                <input type="number" name="item[@i].exam_id" value="@item.exam_id" />
+       </td>
+            <td>
+                <input type="number" name="item[@i].marks_obt" value="@item.marks_obt" />
+           </td>
+        </tr>
+            i += 1;
+        }
+        <tr>
+            <td>
+                <input type="submit" value="Save" class="btn btn-default" />
+            </td>
+        </tr>
+
+    }
+
+
+</table>
+
+ 

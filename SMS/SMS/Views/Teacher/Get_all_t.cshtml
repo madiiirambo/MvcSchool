@@ -1,0 +1,62 @@
+﻿@model IEnumerable<SMS.Models.Teacher>
+
+@{
+    ViewBag.Title = "Get_all_t";
+    Layout = "~/Views/Shared/_Layout_logout.cshtml";
+}
+
+<h2>Get_all_t</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.t_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.t_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.t_pass)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.t_contact)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.t_address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.t_email)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.t_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.t_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.t_pass)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.t_contact)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.t_address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.t_email)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

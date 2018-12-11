@@ -1,0 +1,33 @@
+﻿@{
+    Layout = "";
+    ViewBag.Title = "Index";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
+    <meta name="description" content="slick Login">
+    <meta name="author" content="Webdesigntuts+">
+    <link rel="stylesheet" type="text/css" href="~/Content/login/style.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="http://www.modernizr.com/downloads/modernizr-latest.js"></script>
+    <script type="text/javascript" src="~/Content/login/placeholder.js"></script>
+</head>
+ <body>
+<img src="~/Content/assets/img/books.jg" />
+    <form id="slick-login" action="/Home/Index" method="post">
+        <h2 style="border-radius:10px; color:white; margin-top:-50px; margin-left:-100px;">User ID</h2>
+        <label for="username">username</label><input type="text"  name="email" class="placeholder" placeholder="User ID" style="width:400px;  margin-left:-100px;">
+
+<div>
+<br>
+ <h2 style="border-radius:10px; color:white; margin-left:-100px;">Password</h2>        
+        <label for="password">password</label><input type="password" name="passward" class="placeholder" placeholder="password" style="width:400px; margin-left:-100px;">
+</div>
+        <input type="submit" value="LOGIN" class="submit" name="submit" style="width:400px; margin-left:-100px;">
+  
+ </form>
+</body>
+
+</html>

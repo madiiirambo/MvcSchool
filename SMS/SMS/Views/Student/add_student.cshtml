@@ -1,0 +1,113 @@
+﻿@model SMS.Models.StudentModel
+
+@{
+    ViewBag.Title = "add_student";
+    Layout = "~/Views/Shared/_Layout_logout.cshtml";
+}
+
+<h2>add_student</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>StudentModel</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.std_name, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.std_name)
+                @Html.ValidationMessageFor(model => model.std_name)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.std_pass, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.std_pass)
+                @Html.ValidationMessageFor(model => model.std_pass)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.std_f_name, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.std_f_name)
+                @Html.ValidationMessageFor(model => model.std_f_name)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.std_gender, new { @class = "control-label col-md-2" })
+            <select name="std_gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+       
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.std_age, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.std_age)
+                @Html.ValidationMessageFor(model => model.std_age)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.std_Dob, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.std_Dob)
+                @Html.ValidationMessageFor(model => model.std_Dob)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.std_contact, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.std_contact)
+                @Html.ValidationMessageFor(model => model.std_contact)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.std_f_contact, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.std_f_contact)
+                @Html.ValidationMessageFor(model => model.std_f_contact)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.std_address, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.std_address)
+                @Html.ValidationMessageFor(model => model.std_address)
+            </div>
+        </div>
+
+        
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,291 @@
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\SMS.dll.config
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\SMS.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\SMS.pdb
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Antlr3.Runtime.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\EntityFramework.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\EntityFramework.SqlServer.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.Security.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Newtonsoft.Json.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Owin.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\System.Web.Helpers.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\System.Web.Mvc.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\System.Web.Optimization.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\System.Web.Razor.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\System.Web.WebPages.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\WebGrease.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\System.Web.Helpers.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\System.Web.Mvc.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\System.Web.Optimization.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\System.Web.Razor.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\System.Web.WebPages.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Newtonsoft.Json.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Antlr3.Runtime.pdb
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\EntityFramework.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\EntityFramework.SqlServer.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.Security.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\obj\Debug\SMS.dll
+C:\Users\Muhammad\Desktop\Dbms Project\SMS\SMS\obj\Debug\SMS.pdb
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\SMS.dll.config
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\SMS.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\SMS.pdb
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Antlr3.Runtime.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\EntityFramework.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\EntityFramework.SqlServer.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.AspNet.Identity.Core.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.Cookies.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.Facebook.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.Google.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.OAuth.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.Twitter.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Web.Infrastructure.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Newtonsoft.Json.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Owin.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\System.Web.Helpers.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\System.Web.Mvc.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\System.Web.Optimization.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\System.Web.Razor.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\System.Web.WebPages.Deployment.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\System.Web.WebPages.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\System.Web.WebPages.Razor.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\WebGrease.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\System.Web.Helpers.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\System.Web.Mvc.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\System.Web.Optimization.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\System.Web.Razor.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\System.Web.WebPages.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\System.Web.WebPages.Deployment.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\System.Web.WebPages.Razor.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Newtonsoft.Json.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Antlr3.Runtime.pdb
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\EntityFramework.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\EntityFramework.SqlServer.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.AspNet.Identity.Core.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.Facebook.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.Cookies.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.OAuth.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.Google.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.Twitter.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\BSCS\Projects\DBMS\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+F:\BSCS\Projects\DBMS\SMS\SMS\obj\Debug\SMS.dll
+F:\BSCS\Projects\DBMS\SMS\SMS\obj\Debug\SMS.pdb
+F:\BSCS\Projects\DBMS\SMS\SMS\obj\Debug\RdlCompile.cache
+F:\BSCS\Projects\DBMS\SMS\SMS\obj\Debug\RdlCompile.compiled
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\SMS.dll.config
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\SMS.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\SMS.pdb
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Antlr3.Runtime.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\EntityFramework.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\EntityFramework.SqlServer.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Newtonsoft.Json.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Owin.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\System.Web.Helpers.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\System.Web.Mvc.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\System.Web.Optimization.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\System.Web.Razor.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\System.Web.WebPages.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\WebGrease.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\System.Web.Helpers.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\System.Web.Mvc.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\System.Web.Optimization.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\System.Web.Razor.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\System.Web.WebPages.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Newtonsoft.Json.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Antlr3.Runtime.pdb
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\EntityFramework.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\EntityFramework.SqlServer.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\obj\Debug\RdlCompile.cache
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\obj\Debug\RdlCompile.compiled
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\obj\Debug\SMS.dll
+C:\Users\Muhammad\Desktop\DBMS\SMS\SMS\obj\Debug\SMS.pdb
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\SMS.dll.config
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\SMS.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\SMS.pdb
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Antlr3.Runtime.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\EntityFramework.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\EntityFramework.SqlServer.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.Security.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Newtonsoft.Json.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Owin.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\System.Web.Helpers.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\System.Web.Mvc.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\System.Web.Optimization.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\System.Web.Razor.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\System.Web.WebPages.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\WebGrease.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Build.Utilities.v3.5.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\ADODB.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.ReportViewer.WebForms.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\System.Web.Helpers.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\System.Web.Mvc.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\System.Web.Optimization.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\System.Web.Razor.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\System.Web.WebPages.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Newtonsoft.Json.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Antlr3.Runtime.pdb
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\EntityFramework.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\EntityFramework.SqlServer.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.Security.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\bin\Microsoft.Build.Utilities.v3.5.xml
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\obj\Debug\SMS.dll
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\obj\Debug\SMS.pdb
+C:\Users\Sufiyan\Desktop\Adil DBms\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\SMS.dll.config
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\SMS.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\SMS.pdb
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Antlr3.Runtime.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\EntityFramework.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\EntityFramework.SqlServer.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.Security.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Newtonsoft.Json.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Owin.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\System.Web.Helpers.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\System.Web.Mvc.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\System.Web.Optimization.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\System.Web.Razor.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\System.Web.WebPages.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\WebGrease.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Build.Utilities.v3.5.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\ADODB.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.ReportViewer.WebForms.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\System.Web.Helpers.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\System.Web.Mvc.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\System.Web.Optimization.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\System.Web.Razor.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\System.Web.WebPages.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Newtonsoft.Json.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Antlr3.Runtime.pdb
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\EntityFramework.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\EntityFramework.SqlServer.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.Security.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\bin\Microsoft.Build.Utilities.v3.5.xml
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\obj\Debug\SMS.dll
+C:\Users\Sufiyan\Desktop\Daniyal Project\SMS\SMS\obj\Debug\SMS.pdb

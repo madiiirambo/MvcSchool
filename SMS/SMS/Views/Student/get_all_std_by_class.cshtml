@@ -1,0 +1,61 @@
+﻿@model IEnumerable<SMS.Models.Get_Std_By_Class>
+
+@{
+    ViewBag.Title = "get_all_std_by_class";
+    Layout = "~/Views/Shared/_Layout_logout.cshtml";
+}
+
+<h2>get_all_std_by_class</h2>
+
+<hr />
+@using (Html.BeginForm())
+{
+    <div class="form group">
+        <input type="text" name="class_no" />
+        <input type="submit" value="Search" />
+    </div>
+}
+
+
+<table class="table">
+    <tr>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.std_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.std_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.std_f_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.std_gender)
+        </th>
+
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.std_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_f_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_gender)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

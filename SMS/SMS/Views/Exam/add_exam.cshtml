@@ -1,0 +1,59 @@
+﻿@model SMS.Models.Exam
+
+@{
+    ViewBag.Title = "add_exam";
+    Layout = "~/Views/Shared/_Layout_logout.cshtml";
+}
+
+<h2>add_exam</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Exam</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.exam_tittle, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.exam_tittle)
+                @Html.ValidationMessageFor(model => model.exam_tittle)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.exam_date, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.exam_date)
+                @Html.ValidationMessageFor(model => model.exam_date)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.max_marks, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.max_marks)
+                @Html.ValidationMessageFor(model => model.max_marks)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

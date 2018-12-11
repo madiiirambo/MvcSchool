@@ -1,0 +1,68 @@
+﻿@model SMS.Models.Class
+
+@{
+    ViewBag.Title = "add_class";
+    Layout = "~/Views/Shared/_Layout_logout.cshtml";
+}
+
+<h2>add_class</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Class</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.class_no, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.class_no)
+                @Html.ValidationMessageFor(model => model.class_no)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.section, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.section)
+                @Html.ValidationMessageFor(model => model.section)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.fix_year_id, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.fix_year_id)
+                @Html.ValidationMessageFor(model => model.fix_year_id)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.room_no, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.room_no)
+                @Html.ValidationMessageFor(model => model.room_no)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

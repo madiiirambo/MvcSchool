@@ -1,0 +1,45 @@
+﻿
+@model SMS.Models.AddResult
+
+
+@{
+    ViewBag.Title = "addresult";
+    Layout = "~/Views/Shared/_Layout_logout.cshtml";
+}
+
+<h2>addresult</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>AddResult</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <label for="male">Class Id</label>
+        <div class="form-group">
+            @Html.DropDownList("class_id", (SelectList)ViewBag.adil1, "Select", new { @class = "form-control input-sm" })
+        </div>
+        <label for="male">Exam Id</label>
+        <div class="form-group">
+            @Html.DropDownList("exam_id", (SelectList)ViewBag.adil2, "Select", new { @class = "form-control input-sm" })
+        </div>
+        <label for="male">Subject Id</label>
+        <div class="form-group">
+            @Html.DropDownList("sub_id", (SelectList)ViewBag.adil3, "Select", new { @class = "form-control input-sm" })
+        </div>
+        
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Search" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+    }
+    }
+}

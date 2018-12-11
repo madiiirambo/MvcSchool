@@ -1,0 +1,92 @@
+﻿@model IEnumerable<SMS.Models.StudentModel>
+
+@{
+    ViewBag.Title = "Get_all_std";
+    Layout = "~/Views/Shared/_Layout_logout.cshtml";
+}
+
+<h2>Get_all_std</h2>
+
+
+
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.std_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.std_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.std_pass)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.std_f_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.std_gender)
+        </th>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.std_age)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.std_Dob)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.std_contact)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.std_f_contact)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.std_address)
+        </th>
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_pass)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_f_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_gender)
+        </td>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.std_age)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_Dob)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_contact)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_f_contact)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_address)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "edit", new { item.std_id}) |
+            @Html.ActionLink("Delete", "edit1", new { item.std_id }) |
+            
+    </tr>
+}
+
+</table>

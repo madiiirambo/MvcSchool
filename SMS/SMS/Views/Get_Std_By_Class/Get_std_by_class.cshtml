@@ -1,0 +1,68 @@
+﻿@model IEnumerable<SMS.Models.Get_Std_By_Class>
+
+@{
+    ViewBag.Title = "Get_std_by_class";
+    Layout = "~/Views/Shared/_Layout_logout.cshtml";
+}
+
+<h2>Get_std_by_class</h2>
+
+<select name="class_no">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+</select>
+<div class="form-group">
+    <div class="col-md-offset-2 col-md-10">
+        <input type="submit" value="Save" class="btn btn-default" />
+    </div>
+</div>
+<table class="table">
+    <tr>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.std_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.std_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.std_f_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.std_gender)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (SMS.Models.Get_Std_By_Class item in Model) {
+    <tr>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.std_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_f_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.std_gender)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

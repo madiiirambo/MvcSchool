@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<!--
+    Escape Velocity by HTML5 UP
+    html5up.net |
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <style>
+        body {
+            background-color: white;
+        }
+    </style>
+    <title>School Management System</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="@Url.Content("~/Content/")assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+<body class="homepage">
+
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <div id="header-wrapper" class="wrapper">
+            <div id="header">
+
+
+
+                <!-- Nav -->
+                <nav id="nav">
+                    <ul>
+                        <li class="current"><a href="#">Home</a></li>
+                        <li>
+                            <a href="#">Student</a>
+                            <ul>
+                                <li>@Html.ActionLink("Add Student", "add_student", "Student")</li>
+                                <li>@Html.ActionLink("ALL Student Detailed", "Get_all_std", "Student")</li>
+                                <li>@Html.ActionLink("View Student By Class", "get_all_std_by_class", "Student")</li>
+
+                                <li>@Html.ActionLink("Add Student Class", "add_std_class", "Add_Student_Class")</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Teacher</a>
+                            <ul>
+                                <li>@Html.ActionLink("Add Teacher", "add_teacher", "Teacher")</li>
+                                <li>@Html.ActionLink("View Teacher Detail", "Get_all_t", "Teacher")</li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Add Data</a>
+                            <ul>
+                                <li>@Html.ActionLink("Add Class", "add_class", "Class")</li>
+                                <li>@Html.ActionLink("Add_Fix_Year", "fix_year", "Fix_Year")</li>
+                                <li>@Html.ActionLink("Add Exam", "add_exam", "Exam")</li>
+                                <li>@Html.ActionLink("Add Subject", "add_sub", "Subject")</li>
+                                <li>@Html.ActionLink("Add Subject Class", "add_class_sub", "Class")</li>
+
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Result</a>
+                            <ul>
+
+                                <li>@Html.ActionLink("Add Result", "addresult", "Result")</li>
+                                <li>@Html.ActionLink("View Result", "addresult", "Result")</li>
+
+
+
+                            </ul>
+                        </li>
+
+                        </li>
+                        <li>
+                            <a href="#">Attendence</a>
+                            <ul>
+
+                                <li>@Html.ActionLink("Add Addendence", "addattend", "Result")</li>
+                                <li>@Html.ActionLink("View Addendence", "addattend", "Result")</li>
+
+
+
+                            </ul>
+                        </li>
+                        <li><a href="#">Logout</a></li>
+
+
+
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - School Management System</p>
+            </footer>
+        </div>
+
+    </div>
+    <!-- Scripts -->
+
+    <script src="@Url.Content("~/Content/")assets/js/jquery.min.js"></script>
+    <script src="@Url.Content("~/Content/")assets/js/jquery.dropotron.min.js"></script>
+    <script src="@Url.Content("~/Content/")assets/js/skel.min.js"></script>
+    <script src="@Url.Content("~/Content/")assets/js/skel-viewport.min.js"></script>
+    <script src="@Url.Content("~/Content/")assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>
